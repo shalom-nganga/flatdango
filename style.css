@@ -4,88 +4,91 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav1 {
+}
+
+.nav1 {
     background-color: #333;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-  }
-  
-  .nav1 h1 {
+}
+
+.nav1 h1 {
     margin: 0;
-  }
-  .nav1 i {
+}
+
+.nav1 i {
     margin: 0 10px;
     cursor: pointer;
-  }
-  
-  .nav1 i:hover {
+}
+
+.nav1 i:hover {
     color: #FF5733; /* Change color on hover */
-  }
-  
-  .div1 {
+}
+
+.div1 {
     text-align: center;
     margin: 20px;
-  }
-  
-  #searchInput {
+}
+
+#searchInput {
     padding: 10px;
     font-size: 16px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #007bff;
     color: #fff;
     border: none;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-  }
-  
-  .div2 {
+}
+
+.div2 {
     display: grid;
-    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1f;
     padding: 10px;
-  }
-  
-  .div2 .play-container {
+    gap: 10px;
+}
+
+.div2 .play-container {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .div2 .play-container img {
+}
+
+.div2 .play-container img {
     max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     border-radius: 5px;
-  }
-  
-  .div2 .play-container h2 {
+}
+
+.div2 .play-container h2 {
     font-size: 1.5em;
     margin: 10px 0;
-  }
-  
-  .div2 .play-container p {
+}
+
+.div2 .play-container p {
     font-size: 1em;
-  }
-  
-  .div2 .play-container .book {
+}
+
+.div2 .play-container .book {
     font-weight: bold;
-  }
-  
-  .div2 .play-container button {
+}
+
+.div2 .play-container button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -93,25 +96,12 @@ body {
     padding: 8px 16px;
     cursor: pointer;
     margin-top: 10px;
-  }
-  
-  .div2 .play-container button:hover {
+}
+
+.div2 .play-container button:hover {
     background-color: #0056b3;
-  }
-  
-  .div3 video {
+}
+
+.div3 video {
     width: 100%;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
