@@ -1,72 +1,107 @@
-body{
+/* style.css */
 
-
-}
-
-
-.nav1 {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav1 {
+    background-color: #333;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:wheat;
     padding: 10px;
   }
   
   .nav1 h1 {
-    color: white;
-    font-size: 24px;
-    margin-left: 10px;
+    margin: 0;
   }
-  
-  .nav1 a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px;
-  }
-  
-  .nav1 a:hover {
-    color: #ccc;
-  }
-  
   .nav1 i {
-    margin-right: 10px;
-  }
-  
-  .nav1 img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  }
-  
-
-  .div1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  .div1 input {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  .div1 button {
-    padding: 10px;
-    background-color: #222;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
+    margin: 0 10px;
     cursor: pointer;
   }
   
-
+  .nav1 i:hover {
+    color: #FF5733; /* Change color on hover */
+  }
+  
+  .div1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .div2 {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+  }
+  
+  .div2 .play-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .div2 .play-container img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .div2 .play-container h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .div2 .play-container p {
+    font-size: 1em;
+  }
+  
+  .div2 .play-container .book {
+    font-weight: bold;
+  }
+  
+  .div2 .play-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .div2 .play-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .div3 video {
+    width: 100%;
+  }
 
 
 
