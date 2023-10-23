@@ -29,9 +29,6 @@ Once the local development server is running, you can access the Fltdango applic
 ## Contributing
 Contributions to FlickFever are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request on the GitHub repository.
 
-## License
-FlickFever is released under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
-
 ## Acknowledgements
 This application was built using HTML, CSS, and JavaScript. It also utilizes the Font Awesome library for icons.
 
